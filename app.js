@@ -50,6 +50,7 @@ async function actualizarETH(){
 
         const precio = Number(datos.price);
 
+console.log(datos);
         document.getElementById("ethPrecio").innerHTML =
         precio.toLocaleString("es-CO",{
             minimumFractionDigits:2,
