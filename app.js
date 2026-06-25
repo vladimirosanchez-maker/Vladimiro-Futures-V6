@@ -18,6 +18,12 @@ async function actualizarBTC(){
                     maximumFractionDigits:2
                 }
             );
+            
+const ahora = new Date();
+
+document.getElementById("horaActualizacion").innerHTML =
+"Actualizado: " +
+ahora.toLocaleTimeString("es-CO");
 
     }catch(error){
 
@@ -31,3 +37,4 @@ async function actualizarBTC(){
 actualizarBTC();
 
 setInterval(actualizarBTC,3000);
+
