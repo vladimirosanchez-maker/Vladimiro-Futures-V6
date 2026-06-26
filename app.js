@@ -178,4 +178,4 @@ setInterval(function(){
 
 },3000);
 
-console.log("Nuevo sistema iniciado");
+console.log("Sistema nuevo funcionando");
