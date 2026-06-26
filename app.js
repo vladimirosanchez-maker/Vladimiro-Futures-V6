@@ -157,9 +157,15 @@ document.getElementById(idPrecio).innerHTML =
 
     }catch(error){
 
-        console.log("Error:",moneda);
+    console.log("Error:", moneda, error);
 
-    }
+    const simbolo = moneda.replace("USDT","").toLowerCase();
+
+    const idPrecio = simbolo + "Precio";
+
+    document.getElementById(idPrecio).innerHTML =
+    "ERROR";
+ }
 
 }
 
