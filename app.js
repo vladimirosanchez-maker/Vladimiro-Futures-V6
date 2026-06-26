@@ -2,6 +2,7 @@ const monedas = [
     "BTCUSDT",
     "ETHUSDT",
     "SOLUSDT"
+    "XRPUSDT"
 ];
 
 const intervalos = {};
