@@ -1,7 +1,7 @@
 const monedas = [
     "BTCUSDT",
     "ETHUSDT",
-    "SOLUSDT"
+    "SOLUSDT",
     "XRPUSDT"
 ];
 
