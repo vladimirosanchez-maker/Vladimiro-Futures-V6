@@ -186,4 +186,4 @@ setInterval(function(){
 
 },3000);
 
-console.log("Sistema nuevo funcionando");
+console.log("V6 ACTUALIZADA - ADA");
